@@ -126,7 +126,7 @@ var playNextImage = function() {
     }
     //自动播放
 var autoPlay = function() {
-    var interval = 15000
+    var interval = 7000
     setInterval(function() {
         playNextImage()
     }, interval)
